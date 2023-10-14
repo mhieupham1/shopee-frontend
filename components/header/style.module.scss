@@ -1,0 +1,70 @@
+@import "@styles/variables.scss";
+
+.headerTop {
+  background: $orange-bg;
+  .navbarWrapper {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    .navbar {
+      display: flex;
+      .navbarButton {
+        margin: 0;
+        color: #fff;
+        text-decoration: none;
+        padding: 0.25rem;
+        font-size: .8125rem;
+        font-weight: 300;
+        position: relative;
+        &:not(:first-child):after {
+          content: "";
+          height: 0.9375rem;
+          width: 0;
+          border-left: 1px solid hsla(0,0%,100%,.22);
+          border-right: 1px solid hsla(0,0%,100%,.22);
+          position: absolute;
+          left: -1px;
+          top: calc(50% - 7px);
+        }
+      }
+    }
+  }
+  .navbarSearchBox {
+    padding: 1rem 0 .625rem;
+    .searchHeaderBox {
+      .inputSearchBox {
+        width: 100%;
+        :global {
+          .ant-input {
+            border-top-left-radius: 3px;
+            border-bottom-left-radius: 3px;
+            &:hover, &:focus {
+              background-color: #fff;
+            }
+          }
+          span .ant-btn {
+            border-start-end-radius: 3px !important;
+            border-end-end-radius: 3px !important;
+            background-color: $orange-color;
+            color: #fff !important;
+            &:hover, &:focus {
+              color: #fff !important;
+            }
+          }
+        }
+      }
+      .keywordSearchBox {
+        a {
+          color: #fff;
+          text-decoration: none;
+          white-space: nowrap;
+          font-size: .75rem;
+          margin-left: 13px;
+        }
+      }
+    }
+  }
+}
+
+
+

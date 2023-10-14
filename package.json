@@ -3,14 +3,27 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
+    "@ant-design/cssinjs": "^1.17.2",
+    "antd": "^5.10.0",
+    "classnames": "^2.3.2",
     "next": "latest",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "redux-persist": "^6.0.0"
   },
   "engines": {
     "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "20.8.5",
+    "@types/react": "18.2.28",
+    "eslint": "8.51.0",
+    "eslint-config-next": "13.5.4",
+    "sass": "^1.69.3",
+    "typescript": "5.2.2"
   }
 }
