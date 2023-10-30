@@ -8,6 +8,7 @@ import styles from './style.module.scss';
 //icon
 import IconApp from "@images/svg/IconApp";
 import IconCart from "@images/svg/IconCart";
+import Link from "next/link";
 
 
 export default function Header () {
@@ -34,16 +35,16 @@ export default function Header () {
                         <a href={'#'} className={styles.navbarButton}>Hỗ trợ</a>
                         <p className={styles.navbarButton}>Tiếng việt</p>
                         <p className={styles.navbarButton}>Đăng ký</p>
-                        <p className={styles.navbarButton}>Đăng nhập</p>
+                        <Link href={'/login'} className={styles.navbarButton}>Đăng nhập</Link>
                     </div>
                 </div>
                 <div className={cls(styles.navbarSearchBox)}>
                     <Row align="middle">
                         <Col span={4}>
-                            <div className={cls('d-flex', 'justify-content-center')}>
-                                <a href="#">
+                            <div className={cls('d-flex', 'justify-content-facebook-center')}>
+                                <Link href="/">
                                     <IconApp />
-                                </a>
+                                </Link>
                             </div>
                         </Col>
                         <Col span={16}>
@@ -65,7 +66,7 @@ export default function Header () {
                             </div>
                         </Col>
                         <Col span={4}>
-                            <div className={cls('d-flex', 'justify-content-center')}>
+                            <div className={cls('d-flex', 'justify-content-facebook-center')}>
                                 <a href="#">
                                     <IconCart />
                                 </a>
