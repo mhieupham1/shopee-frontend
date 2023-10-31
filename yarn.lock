@@ -298,6 +298,11 @@
   resolved "https://registry.npmjs.org/@types/use-sync-external-store/-/use-sync-external-store-0.0.3.tgz"
   integrity sha512-EwmlvuaxPNej9+T4v5AuBPJa2x2UOJVdjCtDHgcDqitUeOtjnJKJ+apYjVcAoBEMjKW1VVFGZLUb5+qqa09XFA==
 
+"@types/uuid4@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.npmjs.org/@types/uuid4/-/uuid4-2.0.2.tgz"
+  integrity sha512-3nrntKMjT6V/r88Hd6Bcq/JfZBOfvYHhmfNjBvHdhYp9gJ93lCbcqaPWVVVyx5fwJNW/wKVx8M/6MD87IejxYw==
+
 "@typescript-eslint/parser@^5.4.2 || ^6.0.0":
   version "6.7.5"
   resolved "https://registry.npmjs.org/@typescript-eslint/parser/-/parser-6.7.5.tgz"
@@ -2762,6 +2767,11 @@ use-sync-external-store@^1.0.0:
   version "1.2.0"
   resolved "https://registry.npmjs.org/use-sync-external-store/-/use-sync-external-store-1.2.0.tgz"
   integrity sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==
+
+uuid4@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.npmjs.org/uuid4/-/uuid4-2.0.3.tgz"
+  integrity sha512-CTpAkEVXMNJl2ojgtpLXHgz23dh8z81u6/HEPiQFOvBc/c2pde6TVHmH4uwY0d/GLF3tb7+VDAj4+2eJaQSdZQ==
 
 watchpack@2.4.0:
   version "2.4.0"
